@@ -1,0 +1,44 @@
+#header {
+    font-family: 'Exo', sans-serif;
+    letter-spacing: 0.5em;
+    text-align: center;
+    padding: 30px;
+}
+
+/* HTML Styling */
+#subheader {
+    color: rgb(151, 151, 151)
+}
+
+#getStarted {
+    width: 900px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.col-md-4 {
+    width: 800px;
+    height: 560px;
+}
+
+#main-panel {
+	background-color: lightpink;
+	color: #fff;
+	padding: 60px;
+	font-size: .8em;
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);
+}
+
+#image {
+    height: 300px;
+    margin-right: 70px;
+}
+
+#current-word {
+	font-size: 1.5em;
+	font-family: 'Roboto Condensed', sans-serif;
+	line-height: 1.3;
+}
