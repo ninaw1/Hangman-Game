@@ -19,12 +19,15 @@ function resetGame() {
 	guessesRemaining = maxAttempts;
 }
 
+// declaring our variables
 var winCountElement = document.getElementById("win-count");
 var currentWordElement = document.getElementById("current-word");
 var guessCountElement = document.getElementById("guess-count");
 var lettersGuessedElement = document.getElementById("failed-guesses");
 
+// generating our random word from the supplied array
 var randomWord = wordsArray[Math.floor(Math.random() * wordsArray.length)].toLowerCase();
+
 var allLettersGuessed = [];     // Setting allLettersGuessed to an array
 const maxAttempts = 15;
 var guessCount = 0;
@@ -103,6 +106,7 @@ document.onkeydown = e => {
 	}
 }
 
+// For my own notes!!!
 // Firstly, assigning the variables meaning and grabbing them from the HTML 
 // We must set up and array of words to be guessed 
 // We must have a random word to be selected from the array each time (using Math.floor(Math.random()))
